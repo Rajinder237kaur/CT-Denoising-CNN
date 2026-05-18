@@ -48,6 +48,11 @@ The denoised image demonstrates visible noise reduction while preserving anatomi
 
 The CNN demonstrated improvement in image quality after denoising.
 
+### Training Loss Curve
+
+![Training Loss Curve](figures/loss_curve.png)
+The decreasing loss curve demonstrates that the CNN progressively learned to reduce the difference between noisy and clean CT images during training.
+
 **Quantitative Metrics**
 | Metric | Noisy Image | Denoised Image |
 |---|---|---|
@@ -55,13 +60,6 @@ The CNN demonstrated improvement in image quality after denoising.
 | SSIM | 0.256 | 0.644 |
 
 These results indicate improved structural similarity and reduced noise in the denoised CT images.
-
-## Training Loss Curve
-
-![Training Loss Curve](figures/loss_curve.png)
-
-The decreasing loss curve demonstrates that the CNN progressively learned to reduce the difference between noisy and clean CT images during training.
-
 ## Technologies Used
 - Python
 - PyTorch
