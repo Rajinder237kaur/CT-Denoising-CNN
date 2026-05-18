@@ -44,7 +44,6 @@ The implemented CNN architecture consists of:
 ### Denoising Results
 
 ![Denoising Results](figures/denoising_results.png)
-
 The denoised image demonstrates visible noise reduction while preserving anatomical structures.
 
 The CNN demonstrated improvement in image quality after denoising.
@@ -72,12 +71,24 @@ These results indicate improved structural similarity and reduced noise in the d
 CT-Denoising-CNN/
 │
 ├── figures/
-├── CT_DL.ipynb
+│   └── denoising_results.png
+│
 ├── Notebook/
+│   └── CT_DL_CNN.ipynb
+│
 ├── Data/
 ├── README.md
 └── .gitignore
 ```
+
+## How to Run
+
+1. Clone or download this repository.
+2. Open `Notebook/CT_DL_CNN.ipynb` in Jupyter Notebook or Visual Studio Code.
+3. Select the Python environment with the required packages installed.
+4. Run the notebook cells sequentially from top to bottom.
+5. View the generated denoising result in the `figures/` folder.
+
 ## Future Work
 
 Future improvements planned for this project include:
