@@ -45,6 +45,7 @@ The implemented CNN architecture consists of:
 
 ![Denoising Results](figures/denoising_results.png)
 
+The denoised image demonstrates visible noise reduction while preserving anatomical structures.
 
 The CNN demonstrated improvement in image quality after denoising.
 
@@ -52,7 +53,7 @@ The CNN demonstrated improvement in image quality after denoising.
 | Metric | Noisy Image | Denoised Image |
 |---|---|---|
 | PSNR | 22.69 | 29.32 |
-| PSNR | 22.69 | 29.32 |
+| SSIM | 0.256 | 0.644 |
 
 These results indicate improved structural similarity and reduced noise in the denoised CT images.
 
