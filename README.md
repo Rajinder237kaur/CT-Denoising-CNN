@@ -15,7 +15,7 @@ Low-dose CT imaging is commonly used to reduce radiation exposure to patients; h
 - Evaluation using image quality metrics
 ## Methods
 
-## Project Pipeline
+### Project Pipeline
 
 1. Loading and preprocessing CT DICOM images
 2. HU conversion and CT windowing
@@ -26,7 +26,7 @@ Low-dose CT imaging is commonly used to reduce radiation exposure to patients; h
 7. Training using MSE Loss and Adam Optimizer
 8. Evaluation using PSNR and SSIM metrics
 
-## CNN Architecture
+### CNN Architecture
 
 The implemented CNN architecture consists of:
 
@@ -34,7 +34,7 @@ The implemented CNN architecture consists of:
 - ReLU activation for non-linearity
 - Reconstruction layer for denoised image generation
 
-The model was trained using:
+**The model was trained using:**
 
 - Mean Squared Error (MSE) Loss
 - Adam Optimizer
