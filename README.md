@@ -15,14 +15,18 @@ Low-dose CT imaging is commonly used to reduce radiation exposure to patients; h
 - Evaluation using image quality metrics
 ## Methods
 
-The project pipeline includes:
+## Project Pipeline
 
 1. Loading and preprocessing CT DICOM images
-2. Image normalization and windowing
-3. Addition of synthetic noise
-4. CNN-based denoising using PyTorch
-5. Evaluation using PSNR and SSIM metrics
-6. CNN Architecture
+2. HU conversion and CT windowing
+3. Image normalization
+4. Addition of synthetic Gaussian noise
+5. Conversion of NumPy arrays to PyTorch tensors
+6. CNN-based denoising using PyTorch
+7. Training using MSE Loss and Adam Optimizer
+8. Evaluation using PSNR and SSIM metrics
+
+## CNN Architecture
 
 The implemented CNN architecture consists of:
 
