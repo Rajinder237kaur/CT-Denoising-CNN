@@ -86,6 +86,7 @@ CT-Denoising-CNN/
 ├── Data/
 ├── README.md
 └── .gitignore
+```
 
 ## How to Run
 
