@@ -70,9 +70,11 @@ These results indicate improved structural similarity and reduced noise in the d
 ```text
 CT-Denoising-CNN/
 │
+├── figures/
 ├── CT_DL.ipynb
 ├── Notebook/
 ├── Data/
+├── README.md
 └── .gitignore
 ```
 ## Future Work
