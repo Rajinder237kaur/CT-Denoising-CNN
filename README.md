@@ -41,7 +41,7 @@ The model was trained using:
 - PyTorch deep learning framework
 ## Results
 
-## Denoising Results
+### Denoising Results
 
 ![Denoising Results](figures/denoising_results.png)
 
