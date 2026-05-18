@@ -39,9 +39,8 @@ The implemented CNN architecture consists of:
 - Mean Squared Error (MSE) Loss
 - Adam Optimizer
 - PyTorch deep learning framework
-## Results
 
-### Denoising Results
+## Denoising Results
 
 ![Denoising Results](figures/denoising_results.png)
 
@@ -49,19 +48,20 @@ The denoised image demonstrates visible noise reduction while preserving anatomi
 
 The CNN demonstrated improvement in image quality after denoising.
 
-### Training Loss Curve
+## Training Loss Curve
 
 ![Training Loss Curve](figures/loss_curve.png)
 
 The decreasing loss curve demonstrates that the CNN progressively learned to reduce the difference between noisy and clean CT images during training.
 
-**Quantitative Metrics**
+## Quantitative Metrics
 | Metric | Noisy Image | Denoised Image |
 |---|---|---|
 | PSNR | 22.69 | 29.32 |
 | SSIM | 0.256 | 0.644 |
 
 These results indicate improved structural similarity and reduced noise in the denoised CT images.
+
 ## Technologies Used
 - Python
 - PyTorch
