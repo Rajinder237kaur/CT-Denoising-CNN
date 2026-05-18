@@ -44,6 +44,7 @@ The implemented CNN architecture consists of:
 ### Denoising Results
 
 ![Denoising Results](figures/denoising_results.png)
+
 The denoised image demonstrates visible noise reduction while preserving anatomical structures.
 
 The CNN demonstrated improvement in image quality after denoising.
@@ -51,6 +52,7 @@ The CNN demonstrated improvement in image quality after denoising.
 ### Training Loss Curve
 
 ![Training Loss Curve](figures/loss_curve.png)
+
 The decreasing loss curve demonstrates that the CNN progressively learned to reduce the difference between noisy and clean CT images during training.
 
 **Quantitative Metrics**
@@ -75,7 +77,8 @@ These results indicate improved structural similarity and reduced noise in the d
 CT-Denoising-CNN/
 │
 ├── figures/
-│   └── denoising_results.png
+│   ├── denoising_results.png
+│   └── loss_curve.png
 │
 ├── Notebook/
 │   └── CT_DL_CNN.ipynb
@@ -83,7 +86,6 @@ CT-Denoising-CNN/
 ├── Data/
 ├── README.md
 └── .gitignore
-```
 
 ## How to Run
 
